@@ -1,11 +1,11 @@
 # Predictive Maintenance for Truck Air Systems with RANDOM FOREST MODEL
+* to run chosen model: to_bix/models/random_forest/run_train-RF.ipynb
+* The layout of this README could be improved by accessing the file.
 
 ### Project Overview
-
 This project aims to develop a machine learning model to predict potential air system failures in trucks, enabling proactive maintenance and reducing downtime and costs for a transport company facing increased air system maintenance expenses. 
 
 ### Dataset
-
 The project uses two datasets provided:
 1. **`air_system_previous_years.csv`:**  Historical data from previous years, containing 178 ENCODED columns, used for training and evaluating the models.
 2. **`air_system_present_year.csv`:** Current year's data, used to assess the model's real-world performance by comparing its predictions to the actual maintenance records, effectively verifying the model's ability to correctly identify trucks requiring maintenance.
