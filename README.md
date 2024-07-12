@@ -51,7 +51,7 @@ The project uses two datasets provided:
 
 ### Methodology
 1. **Data Preprocessing:**
-    - **Handling Missing Values:** Missing values ('na' and NaNs) were replaced with the mean of their respective columns. This approach helps maintain the overall distribution of the data.
+    - **Handling Missing Values:** Missing values ('na') were replaced with the mean of their respective columns. This approach helps maintain the overall distribution of the data.
     - **Converting Categorical Variables:** The 'class' column, originally containing "pos" and "neg" labels, was converted to a binary format (1 for "pos" and 0 for "neg") for compatibility with machine learning algorithms. 
 
 2. **Feature Engineering:**
@@ -60,7 +60,7 @@ The project uses two datasets provided:
 3. **Feature Selection:**
     -  **Feature Importance Analysis:** Random Forest's feature importance scores were utilized to rank features based on their contribution to the model's predictive power.  
     - **Selection:** The top 16 features with the highest importance scores were selected: 
-        * `['ag_005', 'az_005', 'ba_000', 'bb_000', 'bx_000', 'bu_000', 'bv_000', 'cc_000', 'ci_000', 'cn_004', 'cn_005', 'cq_000', 'cs_005', 'ee_002', 'ee_003', 'ee_004']`
+        * `['ag_005', 'az_005', 'ba_000', 'bb_000', 'bx_000', 'bu_000', 'bv_000', 'cc_000', 'ci_000', 'cn_004', 'cn_005', 'cq_000', 'cs_005', 'ee_002', 'ee_003', 'ee_004', 'ad_000']`
 
 4. **Addressing Class Imbalance:**
     -  Recognizing potential class imbalance (more "neg" than "pos" instances), the SMOTE (Synthetic Minority Over-sampling Technique) was employed to generate synthetic samples for the minority class ("pos"). This ensures the model learns effectively from both classes. 
