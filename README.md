@@ -145,7 +145,7 @@ As observed, the model significantly reduces maintenance costs. This reduction i
 | 428      | 1             | 1              | maintenance_now    | 25               | 25            | 1.0               |
 | 436      | 1             | 1              | maintenance_now    | 25               | 25            | 1.0               |
 | 445      | 1             | 1              | maintenance_now    | 25               | 25            | 1.0               |
-| 461      | 1             | 0              | maintenance_now    | 25               | 500           | 1.0               |
+| 461      | 0             | 1              | maintenance_now    | 10              | 500           | 1.0               |
 | ...      | ...           | ...            | ...                | ...              | ...           | ...               |
 |----------|---------------|----------------|--------------------|------------------|---------------|-------------------|
 
