@@ -7,7 +7,7 @@ This project aims to develop a machine learning model to predict potential air s
 
 ### Dataset
 The project uses two datasets provided:
-1. **`air_system_previous_years.csv`:**  Historical data from previous years, containing 178 ENCODED columns, used for training and evaluating the models.
+1. **`air_system_previous_years.csv`:**  Historical data from previous years, containing 171 ENCODED columns, used for training and evaluating the models.
 2. **`air_system_present_year.csv`:** Current year's data, used to assess the model's real-world performance by comparing its predictions to the actual maintenance records, effectively verifying the model's ability to correctly identify trucks requiring maintenance.
 
 ### Project Structure
