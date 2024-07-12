@@ -13,8 +13,11 @@ The project uses two datasets provided:
 ### Project Structure
 - **`air_system_present_year.csv`:** Dataset for the current year.
 - **`air_system_previous_years.csv`:** Dataset for previous years.
+- **`run-train_RandomF.ipynb`:**  Random Forst Model
+- **`run-train_NeuralN.py`:**  Neural Network Model
 - **`best_params.txt`:** File to store the best hyperparameters found during tuning. 
 - **`README.md`:**  Project documentation.
+
 
 **Structure Dir:**
 |├── dataset
