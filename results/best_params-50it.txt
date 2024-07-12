@@ -1,0 +1,3 @@
+Melhores hiperparâmetros:
+{'max_depth': 216, 'min_samples_leaf': 1, 'min_samples_split': 3, 'n_estimators': 324}
+Tempo total de execução: 22892.67 segundos
